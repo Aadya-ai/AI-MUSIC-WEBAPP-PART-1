@@ -19,9 +19,9 @@ function draw() {
 }
 
 function AI_MUSIC() {
-    window.location.href = "";
+    window.location.href = "https://aadya-ai.github.io/AI-MUSIC-WEBAPP-PART-2/";
 }
 
 function Click_here() {
-    window.location.href = "";
+    window.location.href = "https://aadya-ai.github.io/AI-MUSIC-WEBAPP-PART-3/";
 }
