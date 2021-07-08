@@ -1,6 +1,12 @@
 song_1 = "";
 song_2 = "";
 
+leftWristX = 0;
+leftWristY = 0;
+
+rightWristX = 0;
+rightWristY = 0;
+
 function preload() {
     song_1 = loadSound("OFFICIAL MUSIC VIDEO _ BABY DON’T WANT YOU _ Baby Queen _ Rimorav Vlogs presents RI Vlogs [YTmp3.net].mp3");
     song_2 = loadSound("OFFICIAL MUSIC VIDEO _ VAARI JAWAN _ Rimorav Vlogs [YTmp3.net].mp3")
