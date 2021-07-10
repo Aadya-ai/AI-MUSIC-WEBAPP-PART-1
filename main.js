@@ -99,3 +99,11 @@ function play()
 function stop() {
     song.stop();
 }
+
+function Click_here() {
+    window.location.href = "https://aadya-ai.github.io/AI-MUSIC-WEBAPP-PART-3/";
+}
+
+function AI_MUSIC() {
+    window.location.href = "https://aadya-ai.github.io/AI-MUSIC-WEBAPP-PART-2/";
+}
