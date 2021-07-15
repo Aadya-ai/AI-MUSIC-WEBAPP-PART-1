@@ -92,9 +92,9 @@ function draw() {
 
 function play()
 {
-	song.play();
-	song.setVolume(1);
-	song.rate(1);
+	song_1.play();
+	song_1.setVolume(1);
+	song_1.rate(1);
 }
 
 function stop() {
