@@ -12,6 +12,7 @@ function setup() {
 
     video = createCapture(VIDEO);
     video.hide();
+    
     poseNet = ml5.poseNet(video, modelLoaded);
 	poseNet.on('pose', gotPoses);
 }
@@ -98,12 +99,4 @@ function play()
 
 function stop() {
     song.stop();
-}
-
-function Click_here() {
-    window.location.href = "https://aadya-ai.github.io/AI-MUSIC-WEBAPP-PART-3/";
-}
-
-function AI_MUSIC() {
-    window.location.href = "https://aadya-ai.github.io/AI-MUSIC-WEBAPP-PART-2/";
 }
