@@ -98,5 +98,5 @@ function play()
 }
 
 function stop() {
-    song.stop();
+    song_1.stop();
 }
