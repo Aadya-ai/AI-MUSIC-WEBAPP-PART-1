@@ -3,7 +3,7 @@ song_2 = "";
 
 function preload() {
     song_1 = loadSound("OFFICIAL MUSIC VIDEO _ BABY DON’T WANT YOU _ Baby Queen _ Rimorav Vlogs presents RI Vlogs [YTmp3.net].mp3");
-    song_2 = loadSound("OFFICIAL MUSIC VIDEO _ VAARI JAWAN _ Rimorav Vlogs [YTmp3.net].mp3")
+    song_2 = loadSound("OFFICIAL MUSIC VIDEO _ VAARI JAWAN _ Rimorav Vlogs [YTmp3.net].mp3");
 }
 
 function setup() {
@@ -71,7 +71,6 @@ function draw() {
 		if(song1_status == false)
 		{
 			song1.play();
-			document.getElementById("song").innerHTML = "Playing - Harry Potter Theme Song"
 		}
 	}
 
@@ -84,7 +83,6 @@ function draw() {
 		if(song2_status == false)
 		{
 			song2.play();
-			document.getElementById("song").innerHTML = "Playing - Peter Pan Song"
 		}
 	}
 
